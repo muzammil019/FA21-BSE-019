@@ -4,7 +4,7 @@ import { View, StyleSheet } from 'react-native';
 const Chessboard = () => {
   const renderSquares = () => {
     const squares = [];
-    const colors = ['white', 'black']; // Alternate colors
+    const colors = ['white', 'black']; 
 
     for (let i = 0; i < 8; i++) {
       for (let j = 0; j < 8; j++) {
@@ -34,11 +34,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     width: '100%',
-    aspectRatio: 1, // Maintain aspect ratio
+    aspectRatio: 1, 
   },
   square: {
-    width: '12.5%', // 8 squares in a row
-    aspectRatio: 1, // Maintain aspect ratio
+    width: '12.5%', 
+    aspectRatio: 1, 
   },
 });
 
